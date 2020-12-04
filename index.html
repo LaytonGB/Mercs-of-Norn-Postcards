@@ -17,8 +17,9 @@
 
             <a-marker type='pattern' url='resources/pattern-hiro.patt'>
                 <a-box position='0 0.5 0' material='opacity: 0.5;'></a-box>
-                <a-text value='Success!' position='-0.5 1.5 0' material='opacity: 1;'
-                    animation='property: rotation; dur: 1000; from: 0 0 0; to: 0 360 0; loop: true;'></a-text>
+                <a-entity animation='property: rotation; dur: 1000; from: 0 0 0; to: 0 360 0; loop: true;'>
+                    <a-text value='Success!' position='-0.5 1.5 0' material='opacity: 1;'></a-text>
+                </a-entity>
             </a-marker>
 
             <a-marker type='pattern' url='resources/mercs-qr.patt'>
